@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+.header {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.container {
+    font-size: 48px;
+    font-weight: 800;
+    color:  white;
+}
+.info {
+    background-color: white;
+    font: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.button {
+    background-color: #3882F6;
+}
