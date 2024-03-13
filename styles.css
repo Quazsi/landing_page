@@ -25,6 +25,8 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .container {
@@ -66,4 +68,8 @@ ul {
     align-items: center;
     margin: auto;
     gap: 10px;
+  }
+
+  #stockImage {
+    width: 40%;
   }
