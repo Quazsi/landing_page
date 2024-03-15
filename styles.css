@@ -51,12 +51,6 @@ ul {
 
 }
 
-.info {
-    background-color: white;
-    font: #1f2937;
-    font-size: 36px;
-    font-weight: 800;
-}
 
 .quote {
     background-color: #E5E7EB;
@@ -74,8 +68,14 @@ ul {
     
 }
 
-.button {
+#signup {
     background-color: #3882F6;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 32px;
+    font-weight: bold;
+    font-size: 18px;
+
 }
 
 .content {
@@ -85,6 +85,8 @@ ul {
     align-items: center;
     margin: auto;
     gap: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   #stockImage {
@@ -93,14 +95,34 @@ ul {
   
   .placeholder {
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: gray;
     flex: 1;
   }
+
+  .placeholderText{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 12px;
+  }  
 
   .left {
     flex: 1;
     align-self: center;
   }
 
+  .info {
+    background-color: white;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.title {
+    padding-top: 5%;
+    font: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
