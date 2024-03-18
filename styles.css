@@ -56,12 +56,6 @@ ul {
 }
 
 
-.quote {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-weight: light;
-    font-style: italic;
-}
 
 .footer {
     background-color: #1F2937;
@@ -87,10 +81,11 @@ ul {
     flex-basis: auto;
     flex-direction: column;
     align-items: center;
-    margin: auto;
+    justify-content: space-around;
     gap: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   #stockImage {
@@ -129,4 +124,30 @@ ul {
     font: #1f2937;
     font-size: 36px;
     font-weight: 800;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.square {
+  flex-shrink: 1;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border: #3882F6;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10%;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
 }
