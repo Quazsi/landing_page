@@ -42,7 +42,7 @@ ul {
     justify-content: space-between;
     align-items: flex-start;
     gap: 5%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -57,14 +57,7 @@ ul {
 
 
 
-.footer {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: center;
-    color:  white;
 
-    
-}
 
 #signup {
     background-color: #3882F6;
@@ -148,6 +141,7 @@ ul {
 
 .quote {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #E5E7EB;
@@ -156,4 +150,47 @@ ul {
   font-style: italic;
   padding: 5% 20%;
   color: #1F2937;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.action {
+  display: flex;
+  background: #3882F6;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 5% 10%;
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  padding: 3% 5%;
+}
+
+.small-text {
+  font-weight: normal;
+  font-size: 20px;
+  color: #E5E7EB;
+}
+
+#bottomButton {
+  background-color:#3882F6;
+  border-color: white;
+  border-width: thick;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 32px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  color:  white;
+  padding: 2%;
 }
